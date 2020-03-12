@@ -23,6 +23,7 @@
     "react-native-safe-area-context": "^0.7.3",
     "react-native-screens": "^2.3.0",
     "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^8.1.2",
     "reactotron-react-native": "^4.0.3",
     "reactotron-redux": "^3.1.2",
     "reactotron-redux-saga": "^4.2.3",
