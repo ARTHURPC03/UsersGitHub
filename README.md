@@ -2,8 +2,6 @@
 
 Aplicação desenvolvida com React Native consumindo a API do GitHub.
 
-<h2>:construction:</h2>
-
 ## :hammer: Ferramentas usadas
 
 - ⚛️ **React-native** - Uma biblioteca JavaScript para criar mobile Apps
@@ -14,8 +12,7 @@ Aplicação desenvolvida com React Native consumindo a API do GitHub.
 ## :camera: Demonstração
 ![GIF](GitHub/usersGitHub.gif)
 
-![img](GitHub/Main.png)
-
+![img](GitHub/Main1.png)
 ![img](GitHub/User.png)
 
 ![img](GitHub/webview.png)
