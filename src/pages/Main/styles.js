@@ -2,8 +2,9 @@ import styled from 'styled-components/native'
 import { RectButton } from 'react-native-gesture-handler'
 
 export const Container = styled.View`
+  background: #111116;
   flex: 1;
-  padding: 30px;
+  padding: 30px 20px;
 `
 
 export const Form = styled.View`
@@ -14,7 +15,7 @@ export const Form = styled.View`
 `
 
 export const Input = styled.TextInput.attrs({
-  placeholdeTextColor: '#999',
+  placeholderTextColor: '#999',
 })`
   flex: 1;
   height: 40px;
@@ -31,8 +32,9 @@ export const SubmitButton = styled(RectButton)`
   border-radius: 4px;
   margin-left: 10px;
   padding: 0 12px;
-  opacity: ${props => (props.loading ? 0.1 : 1)};
+  opacity: ${props => (props.loading ? 0.7 : 1)};
 `
+
 export const List = styled.FlatList.attrs({
   showsVerticalScrollIndicator: false,
 })`
@@ -43,22 +45,18 @@ export const User = styled.View`
   align-items: center;
   margin: 0 20px 30px;
 `
-
 export const Avatar = styled.Image`
   width: 64px;
   height: 64px;
   border-radius: 32px;
   background: #eee;
 `
-
 export const Name = styled.Text`
   font-size: 14px;
-  color: #333;
-  font-weight: bold;
+  color: #fff;
   margin-top: 4px;
   text-align: center;
 `
-
 export const Bio = styled.Text.attrs({
   numberOfLines: 2,
 })`
@@ -68,20 +66,39 @@ export const Bio = styled.Text.attrs({
   margin-top: 5px;
   text-align: center;
 `
-
 export const ProfileButton = styled(RectButton)`
   margin-top: 10px;
-  align-self: stretch;
+  width: 170px;
   border-radius: 4px;
   background: #7159c1;
   justify-content: center;
   align-items: center;
   height: 36px;
+  margin-right: 12px;
 `
-
 export const ProfileButtonText = styled.Text`
   font-size: 14px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+`
+
+export const RemoveButton = styled(RectButton)`
+  margin-top: 10px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid black;
+  background: #7159c1;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+`
+export const RemoveButtonText = styled.Text`
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+`
+export const Buttons = styled.View`
+  flex-direction: row;
 `

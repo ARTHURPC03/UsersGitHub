@@ -1,6 +1,7 @@
 import styled from 'styled-components/native'
 
 export const Container = styled.View`
+  background: #131217;
   flex: 1;
   padding: 30px;
 `
@@ -21,7 +22,7 @@ export const Avatar = styled.Image`
 
 export const Name = styled.Text`
   font-size: 20px;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
@@ -42,7 +43,7 @@ export const Stars = styled.FlatList.attrs({
 `
 
 export const Starred = styled.View`
-  background: #f5f5f5;
+  background: #1f1b1b;
   border-radius: 4px;
   padding: 10px 15px;
   margin-bottom: 20px;
@@ -67,11 +68,16 @@ export const Title = styled.Text.attrs({
 })`
   font-size: 15px;
   font-weight: bold;
-  color: #333;
+  color: #ffffff;
 `
 
 export const Author = styled.Text`
   font-size: 13px;
-  color: #666;
+  color: #ffff;
   margin-top: 2px;
+`
+export const Loading = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 `

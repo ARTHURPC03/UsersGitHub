@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import Main from './pages/Main'
 import User from './pages/User'
+import Repository from './pages/Repository'
 
 const Stack = createStackNavigator()
 
@@ -13,7 +14,7 @@ export default function Routes() {
       headerLayoutPreset="center"
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#7159c1',
+          backgroundColor: '#111116',
         },
         headerTintColor: '#FFF',
       }}
@@ -24,6 +25,7 @@ export default function Routes() {
         component={User}
         options={({ route }) => ({ title: route.params.user.name })}
       />
+      <Stack.Screen name="Repository" component={Repository} />
     </Stack.Navigator>
   )
 }
