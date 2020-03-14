@@ -13,6 +13,9 @@ Aplicação desenvolvida com React Native consumindo a API do GitHub.
 
 ## :camera: Demonstração
 ![GIF](GitHub/usersGitHub.gif)
+
 ![img](GitHub/Main.png)
+
 ![img](GitHub/User.png)
+
 ![img](GitHub/webview.png)
